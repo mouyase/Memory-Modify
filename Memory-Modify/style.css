@@ -1,0 +1,54 @@
+/* 
+ * ┌─┐┬ ┬┌─┐┬ ┬┌┐┌┌─┐┌─┐┌┐┌┌─┐ ┌─┐┌─┐┌┬┐
+ * └─┐├─┤├─┤││││││┌─┘├┤ ││││ ┬ │  │ ││││
+ * └─┘┴ ┴┴ ┴└┴┘┘└┘└─┘└─┘┘└┘└─┘o└─┘└─┘┴ ┴
+ * Theme Name: Memory-Modifie
+ * Theme URI: https://4cy.me
+ * Description: Theme Memory by Shawn (Modified by 某亚瑟)
+ * Version: 4.0.4
+ * Template: Memory
+ * Author: Shawn (Modified by 某亚瑟)
+ * Author URI: https://shawnzeng.com
+ * Tags: Memory, Shawn, Wordpress
+ */
+
+ @import url("../Memory/style.css");
+
+ .post-type.real-post .post-type-header .thumbnail-link {
+ 	padding: 0 0 31.46666666666% 0;
+ 	position: absolute;
+ 	width: 100%;
+ 	top: 0;
+ 	left: 0;
+ 	margin: 0;
+ }
+
+ .post-type.real-post .post-type-header .thumbnail-shadow {
+ 	padding: 0 0 31.46666666666% 0;
+ 	position: absolute;
+ 	width: 100%;
+ 	top: 0;
+ 	left: 0;
+ }
+
+ .post-type.real-post .post-type-header .post-relative {
+ 	margin: 31.46666666666% 0 0 0;
+ }
+
+ .post-type-header .thumbnail-shadow .post-title {
+ 	margin: 10% 5% 0 5%;
+ }
+
+ .post-type-header .thumbnail-shadow .post-info {
+ 	margin: 5% 5% 10% 5%;
+ }
+
+ .post-type-header .thumbnail-link {
+ 	padding: 0 0 31.46666666666% 0;
+ }
+
+ @media screen and (max-width: 480px) {
+ 	.post-type.real-post .post-type-header .post-relative {
+ 		margin: 150px 0 0 0;
+ 	}
+ }
